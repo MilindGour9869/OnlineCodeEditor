@@ -45,7 +45,7 @@ export default class Compiler extends Component {
         method: "POST",
         headers: {
           "x-rapidapi-host": "judge0-ce.p.rapidapi.com",
-          "x-rapidapi-key": "aed6765d19msh4c8ad4bc5f5878fp108b9djsn05c850254400", // Get yours for free at https://rapidapi.com/judge0-official/api/judge0-ce/
+          "x-rapidapi-key": "aed6765d19msh4c8ad4bc5f5878fp108b9djsn05c850254400", 
           "content-type": "application/json",
           accept: "application/json",
         },
@@ -56,7 +56,7 @@ export default class Compiler extends Component {
         }),
       }
     );
-    outputText.innerHTML += "Submission Created ...\n";
+    outputText.innerHTML += "Submission Created ....\n";
     const jsonResponse = await response.json();
 
     let jsonGetSolution = {
@@ -82,7 +82,7 @@ export default class Compiler extends Component {
           method: "GET",
           headers: {
             "x-rapidapi-host": "judge0-ce.p.rapidapi.com",
-            "x-rapidapi-key": "aed6765d19msh4c8ad4bc5f5878fp108b9djsn05c850254400", // Get yours for free at https://rapidapi.com/judge0-official/api/judge0-ce/
+            "x-rapidapi-key": "aed6765d19msh4c8ad4bc5f5878fp108b9djsn05c850254400", 
             "content-type": "application/json",
           },
         });
